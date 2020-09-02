@@ -108,12 +108,12 @@
     },
     "web3.fromWei": {
         "prefix": "web3.fromWei",
-        "body": "web3.fromWei(${2:number}, ${1|'kwei','mwei','gwei','szabo','finney','ether','kether','mether','gether','tether'|})${0:;}",
+        "body": "web3.utils.fromWei(${2:number}, ${1|'kwei','mwei','gwei','szabo','finney','ether','kether','mether','gether','tether'|})${0:;}",
         "description": "Converts a number of wei into the following ethereum units - returns string|BigNumber"
     },
     "web3.toWei": {
         "prefix": "web3.toWei",
-        "body": "web3.toWei(${0:number}, ${1|'kwei','mwei','gwei','szabo','finney','ether','kether','mether','gether','tether'|});",
+        "body": "web3.utils.toWei(${0:number}, ${1|'kwei','mwei','gwei','szabo','finney','ether','kether','mether','gether','tether'|});",
         "description": "Converts an ethereum unit into wei - returns string|BigNumber"
     },
     "web3.toBigNumber": {
